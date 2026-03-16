@@ -3,9 +3,9 @@ const getId = () => id++;
 
 // Restrict access to our mock "database" to just this Model file
 const fellows = [
-  { name: 'Carmen', id: getId() },
-  { name: 'Reuben', id: getId() },
-  { name: 'Maya', id: getId() },
+  { name: "Carmen", id: getId() },
+  { name: "Reuben", id: getId() },
+  { name: "Maya", id: getId() },
 ];
 
 // Can be used like "fellowModel.create()"
